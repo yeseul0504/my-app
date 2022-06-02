@@ -1,3 +1,4 @@
+import { Button } from 'react-bootstrap';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -17,6 +18,7 @@ const Home = (props) => {
 
   return (
     <div>
+      <Button variant="primary">Primary</Button>
       <StyledAddBtn user={user}>더하기</StyledAddBtn>
       <StyledDeleteBtn user={user} onClick={() => setBoard([])}>
         전체 삭제
