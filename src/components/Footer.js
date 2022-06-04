@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const FooterList = styled.div`
   height: 80px;
   margin-top: auto;
-  background-color: beige;
+  background-color: #d3d3d3;
 `;
 const Footer = () => {
   return (

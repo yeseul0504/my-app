@@ -31,7 +31,7 @@ const Button = styled.div`
   color: #fff;
   border: none;
   border-radius: 0;
-  background-color: #03c75a;
+  background-color: #87cefa;
   ${({ disabled }) =>
     disabled &&
     `
